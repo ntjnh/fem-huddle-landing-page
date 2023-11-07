@@ -1,7 +1,7 @@
-import logo from './assets/images/logo.svg'
-import facebook from './assets/images/facebook.svg'
-import instagram from './assets/images/instagram.svg'
-import twitter from './assets/images/twitter.svg'
+import logo from '../assets/images/logo.svg'
+import facebook from '../assets/images/facebook.svg'
+import instagram from '../assets/images/instagram.svg'
+import twitter from '../assets/images/twitter.svg'
 
 export default function Footer() {
     return (
