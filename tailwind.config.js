@@ -6,7 +6,20 @@ export default {
             'body': ['Open Sans', 'sans-serif'],
             'display': ['Poppins', 'sans-serif'],
         },
-        extend: {},
+        extend: {
+            colors: {
+                cyan: {
+                    25: '#ebfbff',
+                    975: '#00252e'
+                },
+                pink: {
+                    450: '#ff52bf'
+                },
+                slate: {
+                    450: '#808d99'
+                }
+            }
+        },
     },
     plugins: [],
 }
