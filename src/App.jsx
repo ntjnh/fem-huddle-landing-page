@@ -1,3 +1,4 @@
+import Header from './components/header'
 import logo from './assets/images/logo.svg'
 import mockupImg from './assets/images/illustration-mockups.svg'
 import facebook from './assets/images/facebook.svg'
@@ -12,12 +13,7 @@ function App() {
 
     return (
         <>
-            <header>
-                <div className="container mx-auto">
-                    <img src={logo} alt="Huddle logo" />
-                    <a href="#">Try It Free</a>
-                </div>
-            </header>
+            <Header />
 
             <main>
                 <section>
