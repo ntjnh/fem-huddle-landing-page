@@ -5,7 +5,6 @@ import Footer from './components/Footer'
 import growImg from './assets/images/illustration-grow-together.svg'
 import flowImg from './assets/images/illustration-flowing-conversations.svg'
 import yourImg from './assets/images/illustration-your-users.svg'
-import './App.css'
 
 function App() {
 
