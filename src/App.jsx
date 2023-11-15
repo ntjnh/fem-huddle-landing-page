@@ -10,10 +10,11 @@ function App() {
 
     return (
         <>
-            <Header />
+            <Header>
+                <Hero />
+            </Header>
 
             <main>
-                <Hero />
 
                 <section>
                     <div className="container mx-auto">
