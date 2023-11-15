@@ -1,8 +1,16 @@
 import logo from '../assets/images/logo.svg'
+import bgImageDesktop from '../assets/images/bg-hero-desktop.svg'
 
-export default function Header() {
+export default function Header(props) {
+    const bgStyles = {
+        backgroundImage: `url(${bgImageDesktop})`,
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        backgroundSize: 'contain'
+    }
+
     return (
-        <header className="bg-cyan-25 py-11">
+        <header className="bg-cyan-25 pt-12" style={bgStyles}>
             <div className="container mx-auto">
                 <div className="flex items-center justify-between">
                     <div className="w-[49%]">
@@ -14,6 +22,8 @@ export default function Header() {
                     </div>
                 </div>
             </div>
+
+            {props.children}
         </header>
     )
 }
