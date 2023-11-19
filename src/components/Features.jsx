@@ -36,7 +36,7 @@ export default function Features() {
     })
 
     return (
-        <section className="px-5 py-[60px]">
+        <section className="px-5 pb-20 pt-[60px]">
             <div className="container mx-auto">
                 {featureElements}
             </div>
