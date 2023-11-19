@@ -16,7 +16,9 @@ function App() {
 
                 <Features />
 
-                <CTA />
+                <div className="h-28 relative">
+                    <CTA />
+                </div>
 
             </main>
 
