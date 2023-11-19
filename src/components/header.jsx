@@ -3,10 +3,7 @@ import bgImageDesktop from '../assets/images/bg-hero-desktop.svg'
 
 export default function Header(props) {
     const bgStyles = {
-        backgroundImage: `url(${bgImageDesktop})`,
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        backgroundSize: 'contain'
+        backgroundImage: `url(${bgImageDesktop})`
     }
 
     return (
