@@ -2,7 +2,7 @@ import mockupImg from '../assets/images/illustration-mockups.svg'
 
 export default function Hero() {
     return (
-        <section className="py-20 md:py-16">
+        <section className="pt-20 pb-9 md:py-16">
             <div className="container mx-auto">
                 <div className="flex flex-wrap items-center text-center md:text-left">
                     <div className="px-5 md:pr-20 md:w-[46%]">
