@@ -25,4 +25,8 @@
 
         }
     }
+
+    .card-shadow {
+        box-shadow: 0 0 7px 1px rgb(0 37 46 / 0.1), 0 2px 4px -2px rgb(0 37 46 / 0.1);
+    }
 }

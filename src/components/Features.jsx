@@ -24,16 +24,19 @@ export default function Features() {
 
     const featureElements = featureContent.map( (feature, i) => {
         return (
-            <article key={i}>
-                <h2>{feature.heading}</h2>
-                <p>{feature.paragraph}</p>
-                <img className="max-w-[410px]" src={feature.image} alt="" />
+            <article key={i} className="flex flex-wrap mb-10 pt-12 pb-9 px-10 rounded-2xl card-shadow text-center">
+                <div className="order-2">
+                    <h2 className="mb-5 text-cyan-975 text-xl">{feature.heading}</h2>
+                    <p className="text-sm text-slate-450">{feature.paragraph}</p>
+                </div>
+
+                <img className="block mx-auto max-w-[240px] md:max-w-[410px] order-1 pb-12 md:pb-14" src={feature.image} alt="" />
             </article>
         )
     })
 
     return (
-        <section>
+        <section className="px-5 py-[60px]">
             <div className="container mx-auto">
                 {featureElements}
             </div>
