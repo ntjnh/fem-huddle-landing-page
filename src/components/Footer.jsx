@@ -25,20 +25,20 @@ export default function Footer() {
                     <li><a className="inline-block" href="#">Contact Us</a></li>
                 </ul>
 
-                <ul className="mb-6">
-                    <li>
+                <ul className="mb-6 text-center">
+                    <li className="border border-white inline-block rounded-full p-2">
                         <a href="https://facebook.com" target="_blank" rel="noreferrer nofollow">
-                            <img className="h-5 w-5" src={facebook} alt="Facebook" />
+                            <img className="h-4 invert w-4" src={facebook} alt="Facebook" />
                         </a>
                     </li>
-                    <li>
+                    <li className="border border-white inline-block rounded-full p-2 mx-3">
                         <a href="https://twitter.com" target="_blank" rel="noreferrer nofollow">
-                            <img className="h-5 w-5" src={twitter} alt="Twitter" />
+                            <img className="h-4 invert w-4" src={twitter} alt="Twitter" />
                         </a>
                     </li>
-                    <li>
+                    <li className="border border-white inline-block rounded-full p-2">
                         <a href="https://instagram.com" target="_blank" rel="noreferrer nofollow">
-                            <img className="h-5 w-5" src={instagram} alt="Instagram" />
+                            <img className="h-4 invert w-4" src={instagram} alt="Instagram" />
                         </a>
                     </li>
                 </ul>
