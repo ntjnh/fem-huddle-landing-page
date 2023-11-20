@@ -1,22 +1,34 @@
-import logo from '../assets/images/logo.svg'
+import logo from '../assets/images/logo-white.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faEnvelope, faLocationDot, faPhoneVolume } from '@fortawesome/free-solid-svg-icons'
 import facebook from '../assets/images/facebook.svg'
 import instagram from '../assets/images/instagram.svg'
 import twitter from '../assets/images/twitter.svg'
 
 export default function Footer() {
     return (
-        <footer className="bg-cyan-975 pt-32 px-3 md:pt-0 text-base text-cyan-25">
+        <footer className="bg-cyan-975 pt-32 px-4 md:pt-0 text-base text-cyan-25">
             <div className="container mx-auto">
-                <img className="mb-6" src={logo} alt="Huddle" />
+                <img className="mb-6 w-[170px]" src={logo} alt="Huddle" />
 
-                <address className="mb-6 not-italic max-w-[295px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
-                </address>
+                <div className="flex mb-6 pl-1">
+                    <FontAwesomeIcon className="pt-1.5" icon={faLocationDot} />
+                    <address className="max-w-[320px] not-italic pl-5">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </address>
+                </div>
 
-                <a className="block mb-6" href="tel:+15431234567">+1-543-123-4567</a>
-                <a className="block mb-16" href="mailto:example@huddle.com">example@huddle.com</a>
+                <div className="flex mb-6 pl-1">
+                    <FontAwesomeIcon className="pt-1.5" icon={faPhoneVolume} />
+                    <a className="block pl-5" href="tel:+15431234567">+1-543-123-4567</a>
+                </div>
 
-                <ul className="mb-14">
+                <div className="flex pl-1">
+                    <FontAwesomeIcon className="pt-1.5" icon={faEnvelope} />
+                    <a className="block mb-16 pl-5" href="mailto:example@huddle.com">example@huddle.com</a>
+                </div>
+
+                <ul className="mb-14 pl-1">
                     <li><a className="inline-block pb-5" href="#">About Us</a></li>
                     <li><a className="inline-block pb-5" href="#">What We Do</a></li>
                     <li><a className="inline-block pb-5" href="#">FAQ</a></li>
