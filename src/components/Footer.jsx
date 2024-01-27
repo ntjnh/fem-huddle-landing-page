@@ -7,7 +7,7 @@ import twitter from '../assets/images/twitter.svg'
 
 export default function Footer() {
     return (
-        <footer className="bg-cyan-975 pt-32 px-4 lg:pt-0 text-base text-cyan-25">
+        <footer className="bg-cyan-975 pt-32 px-4 md:pt-30 md:px-10 lg:px-4 lg:pt-0 text-base text-cyan-25">
             <div className="container mx-auto">
                 <img className="mb-6 w-[170px]" src={logo} alt="Huddle" />
 
@@ -25,7 +25,7 @@ export default function Footer() {
 
                 <div className="flex pl-1">
                     <FontAwesomeIcon className="pt-1.5" icon={faEnvelope} />
-                    <a className="block mb-16 pl-5" href="mailto:example@huddle.com">example@huddle.com</a>
+                    <a className="block mb-16 md:mb-12 lg:mb-16 pl-5" href="mailto:example@huddle.com">example@huddle.com</a>
                 </div>
 
                 <ul className="mb-14 pl-1">
