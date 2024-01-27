@@ -19,10 +19,16 @@
         background-size: 290%;
     }
 
+    @media (min-width: 768px) and (max-width: 1023px) {
+        header {
+            background-position: center;
+            background-size: 100%;
+        }
+    }
+
     @media (min-width: 1024px) {
         header {
             @apply bg-center bg-contain bg-no-repeat;
-
         }
     }
 

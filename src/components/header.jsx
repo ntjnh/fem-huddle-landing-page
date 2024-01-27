@@ -7,7 +7,7 @@ export default function Header(props) {
     }
 
     return (
-        <header className="bg-cyan-25 pt-5 px-4 md:pt-12 md:px-0" style={bgStyles}>
+        <header className="bg-cyan-25 pt-5 px-4 md:pt-10 md:px-10 lg:pt-12 lg:px-0" style={bgStyles}>
             <div className="container mx-auto">
                 <div className="flex items-center justify-between">
                     <div className="w-[49%]">
