@@ -7,7 +7,7 @@ import twitter from '../assets/images/twitter.svg'
 
 export default function Footer() {
     return (
-        <footer className="bg-cyan-975 pt-32 px-4 md:pt-0 text-base text-cyan-25">
+        <footer className="bg-cyan-975 pt-32 px-4 lg:pt-0 text-base text-cyan-25">
             <div className="container mx-auto">
                 <img className="mb-6 w-[170px]" src={logo} alt="Huddle" />
 

@@ -22,12 +22,18 @@ export default function Features() {
         }
     ]
 
-    const featureElements = featureContent.map( (feature, i) => {
+    const featureElements = featureContent.map((feature, i) => {
+        let featureClass = "flex flex-wrap pt-12 pb-9 px-10 rounded-2xl card-shadow text-center"
+
+        if (i !== featureContent.length - 1) {
+            featureClass += " mb-10 "
+        }
+
         return (
-            <article key={i} className="flex flex-wrap mb-10 pt-12 pb-9 px-10 rounded-2xl card-shadow text-center">
+            <article key={i} className={featureClass}>
                 <div className="order-2">
-                    <h2 className="mb-5 text-cyan-975 text-xl">{feature.heading}</h2>
-                    <p className="text-sm text-slate-450">{feature.paragraph}</p>
+                    <h2 className="mb-5 text-cyan-975 text-xl md:text-2xl lg:text-xl">{feature.heading}</h2>
+                    <p className="md:mx-auto lg:mx-0 text-sm md:text-base lg:text-sm text-slate-450 md:w-4/6 lg:w-auto">{feature.paragraph}</p>
                 </div>
 
                 <img className="block mx-auto max-w-[240px] md:max-w-[410px] order-1 pb-12 md:pb-14" src={feature.image} alt="" />
@@ -36,7 +42,7 @@ export default function Features() {
     })
 
     return (
-        <section className="px-5 pb-20 pt-[60px]">
+        <section className="px-5 pb-20 pt-[60px] md:px-10 lg:px-5">
             <div className="container mx-auto">
                 {featureElements}
             </div>
