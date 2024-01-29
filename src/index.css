@@ -4,6 +4,7 @@
 
 @layer base {
     body {
+        @apply text-cyan-975;
         font-family: 'Open Sans', sans-serif;
         font-size: 18px;
         font-weight: 400;
