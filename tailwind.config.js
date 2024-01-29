@@ -3,8 +3,8 @@ export default {
     content: ["./src/**/*.{html,js,jsx}"],
     theme: {
         fontFamily: {
-            'body': ['Open Sans', 'sans-serif'],
-            'display': ['Poppins', 'sans-serif'],
+            body: ['Open Sans', 'sans-serif'],
+            display: ['Poppins', 'sans-serif'],
         },
         extend: {
             colors: {
