@@ -10,7 +10,7 @@ export default function Hero() {
 
                         <p className="text-cyan-975 text-base md:mx-auto md:text-lg md:w-3/4 lg:mx-0 lg:w-auto">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.</p>
 
-                        <a className="bg-pink-450 font-bold inline-block mt-8 px-16 py-3 md:py-4 rounded-full text-xs md:text-sm text-white" href="#">Get Started For Free</a>
+                        <a className="bg-pink-450 hover:opacity-60 font-bold inline-block mt-8 px-16 py-3 md:py-4 rounded-full text-xs md:text-sm text-white" href="#">Get Started For Free</a>
                     </div>
 
                     <div className="pt-14 px-6 md:px-0 lg:pt-0 lg:w-[54%]">

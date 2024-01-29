@@ -15,7 +15,7 @@ export default function Header(props) {
                     </div>
 
                     <div className="text-right w-[49%]">
-                        <a className="bg-white font-bold inline-block px-6 py-1 md:px-16 md:py-3 rounded-full shadow-[0_7px_10px_-2px_rgba(0,0,0,0.1)] text-[10px] md:text-sm text-cyan-975" href="#">Try It Free</a>
+                        <a className="bg-white font-bold inline-block px-6 py-1 md:px-16 md:py-3 rounded-full shadow-[0_7px_10px_-2px_rgba(0,0,0,0.1)] text-[10px] md:text-sm text-cyan-975 hover:text-slate-450" href="#">Try It Free</a>
                     </div>
                 </div>
             </div>
