@@ -16,7 +16,7 @@ function App() {
 
                 <Features />
 
-                <div className="h-28 relative">
+                <div className="h-28 relative lg:container lg:mx-auto lg:w-[800px]">
                     <CTA />
                 </div>
 
